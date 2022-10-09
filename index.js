@@ -9,7 +9,7 @@ bot.command('eclipse_c', (ctx) => ctx.reply("https://www.eclipse.org/downloads/p
 bot.command('common_ide', (ctx) => ctx.reply("https://replit.com/"))
 bot.hears(['mingw','Mingw'], (ctx) => ctx.reply("https://sourceforge.net/projects/mingw-w64/files/"))
 bot.hears(['eclipse c','Eclipse c','Eclipse','eclipse'], (ctx) => ctx.reply("https://www.eclipse.org/downloads/packages/release/2022-09/r/eclipse-ide-cc-developers"))
-bot.hears(['common ide','our ide','Online ide','Online c,ide'], (ctx) => ctx.reply("https://replit.com/"))
+bot.hears(['common ide','our ide','Online ide','Online c','ide',"Ide"], (ctx) => ctx.reply("https://replit.com/"))
 bot.hears(['hai', 'Hai', 'hello', "Hello",'Hey','hey'], (ctx) => ctx.reply(`Hello ${ctx.from.first_name}`))
 bot.launch()
 
